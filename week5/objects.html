@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <title>Writing Objects</title>
+
+    <script>
+
+    	function nameOfFunction() {
+
+    	}
+
+
+    	var fruit = ['apple', 'orange', 'pear'];
+
+    	var hair = {
+    		color: 'brown', 
+    		length: 12, 
+    		type: 'curly',
+    		notice: function() {
+    			alert("The hair is " + this.type);
+    		} 
+    	}
+
+
+    	function hairType(name, color, length, type) {
+    		this.name = name;
+    		this.color = color;
+    		this.length = length;
+    		this.type = type;
+    		this.notice = function() {
+    			alert(this.name + " has " + this.color + " hair.");
+    		}
+    	}
+
+
+    	var barbraHair = new hairType('Barbra', 'blond', 'medium', 'wavy');
+
+    	console.log(barbraHair);
+
+    	for (x in barbraHair) {
+    		console.log(barbraHair[x]);
+    	}
+
+
+
+
+    </script>
+
+  </head>
+
+  <body>
+
+  	<button onclick="hair.notice()">CLick here</button>
+
+
+  </body>
+
+ </html>

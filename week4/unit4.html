@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <title>Template</title>
+
+    <script>
+
+    var colors = ["#F53737", "#22F2D0", "#F2D70A", "#F25516", "#16F254"];
+
+    	function moodChange(param1) {
+    		
+ 			switch(param1) {
+ 				case 0:
+ 					document.body.style.backgroundColor = colors[0];
+ 					alert('here we are');
+ 					break;
+ 				case 1:
+ 					document.body.style.backgroundColor = colors[1];
+ 					break;
+ 				case 2:
+ 					document.body.style.backgroundColor = colors[2];
+ 					break;
+ 				case 3:
+ 					document.body.style.backgroundColor = colors[3];
+ 					break;
+ 				default:
+ 					alert('default');
+ 			}
+
+ 			alert('this one now');
+
+ 		}
+
+
+
+    </script>
+
+
+  </head>
+
+  <body>
+
+
+  	<button id="moodButton" value=0 onclick="moodChange(1)">Fiery</button>
+    <button id="moodButton" value=0 onclick="moodChange(2)">Mellow</button>
+    <button id="moodButton" value=0 onclick="moodChange(10)">Sunshiny</button>
+
+  </body>
+
+ </html>

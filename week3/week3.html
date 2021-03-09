@@ -39,9 +39,11 @@
     	}
     	*/
 
+
 		var colors = ["#F53737", "#22F2D0", "#F2D70A", "#F25516", "#16F254"];
 
-    	function moodChange() {
+
+    	function moodChangex() {
     		buttonVal = document.getElementById("moodButton");
 
     		if(buttonVal.value == 0) {
@@ -59,7 +61,13 @@
 
     	}
 
-    	function moodChange2() {
+        function moodChange(param1) {
+            alert(param1);
+
+        }
+
+
+    	function moodChangeZ(param1) {
     		var buttonVal = document.getElementById("moodButton");
     		var value = buttonVal.value;
 
@@ -97,7 +105,9 @@
 
   <body>
 
-  	<button id="moodButton" value=0 onclick="moodChange2()">Change mood</button>
+  	<button id="moodButton" value=0 onclick="moodChange(1)">Fiery</button>
+    <button id="moodButton" value=0 onclick="moodChange(2)">Mellow</button>
+    <button id="moodButton" value=0 onclick="moodChange(3)">Sunshiny</button>
 
   </body>
 

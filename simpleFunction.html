@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <title>Simple Function</title>
+
+    <script>
+
+    	var colors = ["#0F27FA", "#FA261D", "#FAE645", "#7CFA89", "#000000"]
+
+
+    	function changeMood(param1) {
+    		value = param1;
+    		switch(value) {
+    			case 0:
+    				document.body.style.backgroundColor = colors[value];
+    				break;
+    			case 1:
+    				document.body.style.backgroundColor = colors[value];
+    				break;
+    			case 2: 
+    			    document.body.style.backgroundColor = colors[value];
+    				break;
+    			case 3:
+    				document.body.style.backgroundColor = colors[value];
+    				break;
+    			case 4:
+    				document.body.style.backgroundColor = colors[value];
+    				break;
+    			default:
+    				document.body.style.backgroundColor = 'white';
+    		}
+
+/*
+document.body.style.backgroundColor = colors[num];
+*/
+
+    	}
+
+    </script>
+
+  </head>
+
+  <body>
+
+  	<button onclick="changeMood(0)">Feeling Blue</button>
+  	<button onclick="changeMood(1)">Fiery</button>
+  	<button onclick="changeMood(2)">Sunny</button>
+  	<button onclick="changeMood(3)">Chill</button>
+  	<button onclick="changeMood(4)">Depressed</button>
+
+
+  </body>
+
+ </html>

@@ -4,7 +4,29 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
-    <title>Template</title>
+    <title>Review Objects</title>
+
+    <script>
+
+    	var album = {
+    		artist: 'Queen',
+    		length: 70,
+    		genre: 'Rock'
+    		playSong: function() {
+    			alert('play song');
+    		}
+    	}
+
+    	function createAlbum(artist, length, genre) {
+    		this.artist = artist,
+    		this.length = length,
+    		this.genre = genre,
+    		this.playSong = function
+    	}
+
+    	var album1 = new createAlbum('Perfume Genius', 45, 'Alt Pop');
+
+    </script>
 
   </head>
 

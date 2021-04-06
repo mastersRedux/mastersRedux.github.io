@@ -1,0 +1,99 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+
+
+
+
+<button onclick="firstForFunction()">Click</button>
+<button onclick="firstForInFunction()">For In Function</button>
+
+<div id="USStates"></div>
+
+
+
+
+<script>
+
+var listOfStates = [
+"Alabama",
+"Alaska ",
+"Arizona ",
+"Arkansas ",
+"California ",
+"Colorado ",
+"Connecticut ",
+"Delaware ",
+"Florida ",
+"Georgia ",
+"Hawaii ",
+"Idaho ",
+"Illinois",
+"Indiana ",
+"Iowa ",
+"Kansas ",
+"Kentucky ",
+"Louisiana ",
+"Maine ",
+"Maryland ",
+"Massachusetts ",
+"Michigan ",
+"Minnesota ",
+"Mississippi ",
+"Missouri ",
+"Montana",
+"Nebraska ",
+"Nevada ",
+"New Hampshire ",
+"New Jersey ",
+"New Mexico ",
+"New York ",
+"North Carolina ",
+"North Dakota ",
+"Ohio ",
+"Oklahoma ",
+"Oregon ",
+"Pennsylvania",
+"Rhode Island ",
+"South Carolina ",
+"South Dakota ",
+"Tennessee ",
+"Texas ",
+"Utah ",
+"Vermont ",
+"Virginia ",
+"Washington ",
+"West Virginia ",
+"Wisconsin ",
+"Wyoming"
+]
+
+// My first for loop
+	
+function firstForFunction() {
+	var someStates ="";
+	for(i=0; i < listOfStates.length; i++) {
+		//alert(listOfStates[i]);
+		someStates += "<br>" + listOfStates[i];
+		document.getElementById("USStates").innerHTML = someStates;
+	}
+	
+}
+
+function firstForInFunction() {
+	var someStates ="";
+	for(x in listOfStates) {
+		someStates += "<br>" + listOfStates[x];
+		document.getElementById("USStates").innerHTML = someStates;
+	}
+	
+}
+
+</script>
+
+</body>
+</html>

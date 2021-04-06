@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <title>Pop Quiz</title>
+
+
+
+  </head>
+
+  <body>
+
+<button onclick="dateSelect(0)">Date 1</button>
+<button onclick="dateSelect(1)">Date 2</button>
+<button onclick="dateSelect(2)">Date 3</button>
+<button onclick="dateSelect(3)">Date 4</button>
+
+<div id="content">Hello</div>
+
+
+    <script>
+
+    	var text = [
+    	"<h3>Wow. Great date<h3><img src='somethinghere.png'>", 
+    	"Good start; not trying too hard", 
+    	"hmm. stereotypical", 
+    	"little effort needed"
+    	];
+
+    	function dateSelect(bID) {
+    		alert(bID);
+    	}
+
+
+
+
+    	function button1() {
+    		document.getElementById("content").innerHTML = text[0];
+    	}
+
+    </script>
+
+  </body>
+
+ </html>

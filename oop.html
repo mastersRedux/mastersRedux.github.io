@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <title>OOP</title>
+
+    <script>
+
+
+
+
+var hair = {
+	color: 'blond', 
+	length: 'medium', 
+	type: 'curly',
+	notice: function() {
+		alert(this.color);
+	}
+}
+
+hair.notice();
+
+var album1 = {
+	artist: '',
+	length: '',
+	genre: '',
+	numSongs: '',
+	play1stSong: function() {
+
+	},
+	displayCover: function() {
+
+	}
+}
+
+function createAlbumObj(artist, length, genre, numSongs) {
+	this.artist = artist,
+	this.length = length,
+	this.genre = genre,
+	this.numSongs = numSongs,
+	this.bigArtist = function () {
+		alert("the big artist is " + this.artist)
+	}
+}
+
+
+var album1 = new createAlbumObj('Perfume Genius', '45', 'alt pop', '7');
+console.log(album1);
+
+    </script>
+
+  </head>
+
+  <body>
+
+  	<button id="button" onclick="album1.bigArtist()">My Artist</button>
+
+<script>
+
+var buttonObj = document;
+console.log(buttonObj);
+
+</script>
+
+  </body>
+
+ </html>

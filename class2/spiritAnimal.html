@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Spirit Animal</title>
+
+    <script>
+      //alert('hello world');
+
+      var myVariable = "here is a string"; /* a string */
+      var myOtherVariable = 1; //number
+
+      //alert(x - y);
+
+      //alert( myOtherVariable + myOtherVariable);
+
+      var variableThree;
+
+      myArray = ['dog', 'cat', 'gecko', 'giraffe'];
+      //alert(myArray[2]);
+
+      /*
+
+      + add
+      - subtraction
+      / divide
+      * multiply
+      % modulus (remainder value after a division)
+
+      
+      == equal to
+      != not equal to
+      > greater than
+      < less than
+      >= greater than or equal to
+      <= less or equal too
+      && return true if both statements are equal to each other or are true
+      || return true if one statement is true
+      */
+      var x = 3;
+      var y = 4;
+      var z = 100;
+
+      function myFirstFunction() {
+        //sum = z * x - y;
+        //alert(sum);
+        document.getElementById('animalContent').innerHTML = "this is our next text";
+      }
+   
+      function mySecondFunction() {
+        document.getElementById('animalContent').innerHTML = "this is way way different text";
+      }
+
+    </script>
+
+    <style>
+    .assessBox {
+        background-color: red;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Find Your Spirit Animal (based on first date preferences)</h1>
+    <p>The activity you are most likely to choose for a first date is:</p>
+
+<button onclick="myFirstFunction()">Button 1</button>
+<button onclick="mySecondFunction()">Button 2</button>
+<button onclick="">Button 3</button>
+<button onclick="">Button 4</button>
+
+<p></p>
+<div class="assessBox" id="animalContent">Here is our assess box</div>
+
+
+
+
+
+  </body>
+
+ </html>

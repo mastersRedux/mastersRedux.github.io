@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Canvas Object</title>
+
+    <style>
+      
+      body {
+        background-color: beige;
+      }
+
+      canvas {
+        border: 1px solid black;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <canvas id="painting" width=500 height=500></canvas>
+
+  </body>
+
+    <script>
+  
+      canvas = document.getElementById('painting');
+      ctx = canvas.getContext('2d');
+
+      x = 100;
+      y = 100;
+
+      ctx.fillRect(x, y,100,100);
+      ctx.fillStyle = "#FF0000";
+      ctx.fillRect(x, y,50,50);
+
+
+      var rectangle1 = {
+        xVal: 200,
+        yVal: 200,
+        height: 150,
+        width: 150,
+        
+      }
+    
+    </script>
+
+
+  </script>
+
+ </html>

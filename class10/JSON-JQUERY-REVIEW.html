@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Template</title>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+    <script>
+
+      $(document).ready(function(){
+
+
+        myObject = {name: "Susie", color: "brown", type: "curly", age: 25}
+
+
+        //inside site json
+
+        myJson = [
+          {"name": "Jesse", "color": "brown", "type": "curly", "age": "21"},
+          {"name": "Paul", "color": "blond", "type": "straight", "age": "25"}
+        ]
+
+        //console.log(myObject);
+
+        // console.log(myJson);
+
+        $.getJSON("https://dog.ceo/api/breeds/image/random", function(data) {
+          console.log(data);
+          alert(data.message);
+          img = '<img src="' + data.message + '">'
+          $(".dogImg").html(img);
+        });
+ 
+//{message: 'https://images.dog.ceo/breeds/hound-ibizan/n02091244_2050.jpg', status: 'success'}
+
+  });
+
+    </script>
+
+  </head>
+
+  <body>
+
+      <h1>Template</h1>
+
+      <div class="dogImg"></div>
+
+
+  </body>
+
+ </html>

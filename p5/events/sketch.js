@@ -1,3 +1,5 @@
+var x = 100;
+
 function setup() {
  // put setup code here
  createCanvas(displayWidth,displayHeight);
@@ -7,15 +9,16 @@ function setup() {
 function draw() {
   // put drawing code here
 
-  if(mouseIsPressed){
-    stroke('#FFFC00');
-    fill('#009DFF');
+  if(mouseIsPressed == true) {
+    stroke('#406780');
+    fill('#FFFC00');
     circle(mouseX,mouseY,100);
   }
-  else {
-    stroke('#009DFF');
-    fill('#FFFC00');
-    ellipse(mouseX, mouseY, 100, 50);
+  else{
+    stroke('#FFFC00');
+    fill('#406780');
+    ellipse(mouseX,mouseY,100,25);
   }
-    
+
+
 }

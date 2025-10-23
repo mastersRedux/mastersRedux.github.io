@@ -8,31 +8,37 @@
       "actorId": 1348, 
       "fName": "NYPD LEGAL BUREAU",
       "lName": null,
-      "numCases": 35
+      "numCases": 35,
+      "percent":10
     },
     {
       "actorId": 1352, 
       "fName": "DECOLATOR, COHEN & DIPRISCO, LLP",
       "lName": null,
-      "numCases": 32
+      "numCases": 32,
+      "percent":10
     },
     {
       "actorId": 9, 
       "fName": "Robert",
       "lName": "Antonacci",
-      "numCases": 28
+      "numCases": 28,
+      "percent":8
     },
     {
       "actorId": 2809, 
       "fName": "Charles",
       "lName": "Guillaume",
-      "numCases": 24
+      "numCases": 24,
+      "percent":7
     },
     {
       "actorId": 2809, 
       "fName": "BERNSTEIN LITOWITZ BERGER & GROSSMANN LLP",
       "lName": null,
-      "numCases": 21
+      "numCases": 21,
+      "percent":6
     }
-  ]
+  ],
+  "top5TotalPercent":44
 }

@@ -1,0 +1,38 @@
+{
+  "judgeId":"334", 
+  "fName": "Ariel", 
+  "lName": "Chesler",
+  "medianNumCases": 4,
+  "numLawyerB4Judge": [
+    {
+      "actorId": 1348, 
+      "fName": "NYPD LEGAL BUREAU",
+      "lName": null,
+      "numCases": 35
+    },
+    {
+      "actorId": 1352, 
+      "fName": "DECOLATOR, COHEN & DIPRISCO, LLP",
+      "lName": null,
+      "numCases": 32
+    },
+    {
+      "actorId": 9, 
+      "fName": "Robert",
+      "lName": "Antonacci",
+      "numCases": 28
+    },
+    {
+      "actorId": 2809, 
+      "fName": "Charles",
+      "lName": "Guillaume",
+      "numCases": 24
+    },
+    {
+      "actorId": 2809, 
+      "fName": "BERNSTEIN LITOWITZ BERGER & GROSSMANN LLP",
+      "lName": null,
+      "numCases": 21
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "judgeId":"334", 
+  "fName": "Ariel", 
+  "lName": "Chesler",
+  "avgNumCases": 365,
+  "caseTypes": {
+    "Mat-Contested": 80,
+    "Mat-Uncontested": 250,
+    "Tort-Other": 10,
+    "Tort-Other Negligence": 25
+  },
+  "casesByYear": [
+    {
+      "year": 2018,
+      "totalCases": 315
+    },
+    {
+      "year": 2019,
+      "totalCases": 400
+    },
+    {
+      "year": 2020,
+      "totalCases": 323
+    },
+    {
+      "year": 2021,
+      "totalCases": 335
+    },
+    {
+      "year": 2022,
+      "totalCases": 398
+    },
+    {
+      "year": 2023,
+      "totalCases": 269
+    },
+    {
+      "year": 2024,
+      "totalCases": 300
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "judgeId":"334", 
+  "fName": "Ariel", 
+  "lName": "Chesler",
+  "caseTypes":[ 
+    "Tort-Other Negligence", 
+    "Tort-Other", 
+    "OM-Other" 
+  ],
+  "appearancesByCaseType": [
+    {"type": "Tort-Other Negligence", "totalAppearances": 1625}, 
+    {"type": "Tort-Other", "totalCases": 625}, 
+    {"type": "OM-Other", "totalCases": 250}
+  ],
+  "medianNumAppsInCase": {
+    "Judge": 25,
+    "County": 5,
+    "State": 3
+  },
+  "avgNumAppsByLawyer": [
+    {
+      "actorId": 1348, 
+      "fName": "NYPD LEGAL BUREAU",
+      "lName": null,
+      "avgNumAppearances": 40
+    },
+    {
+      "actorId": 1352, 
+      "fName": "DECOLATOR, COHEN & DIPRISCO, LLP",
+      "lName": null,
+      "avgNumAppearances": 37
+    },
+    {
+      "actorId": 9, 
+      "fName": "Robert",
+      "lName": "Antonacci",
+      "avgNumAppearances": 32
+    },
+    {
+      "actorId": 2809, 
+      "fName": "Charles",
+      "lName": "Guillaume",
+      "avgNumAppearances":29
+    },
+    {
+      "actorId": 2809, 
+      "fName": "BERNSTEIN LITOWITZ BERGER & GROSSMANN LLP",
+      "lName": null,
+      "avgNumAppearances": 26
+    }
+  ]
+}

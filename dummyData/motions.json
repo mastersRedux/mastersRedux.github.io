@@ -1,0 +1,19 @@
+{
+  "judgeId":"334", 
+  "fName": "Ariel", 
+  "lName": "Chesler",
+  "motionByTimeTypes":[ 
+    "Less than 18 months", 
+    "Greater than 18 months", 
+    "Still Pending" 
+  ],
+  "motionsByTime": [
+    {"type": "Less than 18 months", "totalMotions": 500}, 
+    {"type": "Greater than 18 months", "totalMotions": 1250}, 
+    {"type": "Still Pending", "totalMotions": 300}
+  ],
+  "medianNumMotionsInCase": {
+    "Judge": 25,
+    "State": 4
+  }
+}

@@ -1,0 +1,13 @@
+{{
+  "judgeId":"334", 
+  "fName": "Ariel", 
+  "lName": "Chesler",
+  "numsByRepresentation": [
+    {"type": "totalUnrepresented", "litigants": 2800}, 
+    {"type": "unrepresentedVsRepresented", "litigants":  840}, 
+    {"type": "stateUnrepresentedVsRepresented", "litigants":  460}
+  ]
+}}
+}
+  
+}
